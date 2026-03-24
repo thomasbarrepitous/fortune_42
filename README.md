@@ -1,21 +1,18 @@
-# bun-react-tailwind-shadcn-template
+# Fortune Cookie
 
-To install dependencies:
+A simple web app where you click a fortune cookie to reveal your fortune.
+
+## Getting Started
 
 ```bash
 bun install
+bun run dev
 ```
 
-To start a development server:
+Open [http://localhost:3000](http://localhost:3000) in your browser.
 
-```bash
-bun dev
-```
+## How It Works
 
-To run for production:
-
-```bash
-bun start
-```
-
-This project was created using `bun init` in bun v1.3.3. [Bun](https://bun.com) is a fast all-in-one JavaScript runtime.
+1. Click the cookie to open it
+2. The cookie halves split apart to reveal your fortune
+3. Refresh the page for a new random fortune
